@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+/* основной контейнер для новостей */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок раздела новостей */
+h2 {
+    color: #080312;
+    text-align: center;
+    margin-bottom: 20px;/
+}
+
+/* Список новостей с общим стилем */
+dl {
+    margin: 0;
+}
+
+/* Заголовок новости */
+dt {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #21252a;
+}
+
+/* Описание новости */
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Добавление стилей для ссылок (если есть ссылки в новостях) */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
